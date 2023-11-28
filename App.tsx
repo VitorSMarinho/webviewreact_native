@@ -18,10 +18,10 @@ const App = () => {
       <View style={{ flex: 1 }}>
       {showWebView ? (
         <WebView
-          source={{ uri: 'https://reactnative.dev/' }}
+          source={{ uri: 'vitorsmarinho.github.io' }}
           style={{ flex: 1 }}
           onNavigationStateChange={navState => 
-            navState.url !== 'https://reactnative.dev/' &&
+            navState.url !== 'vitorsmarinho.github.io' &&
              handleHideWebView()
             }
             />
